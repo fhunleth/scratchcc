@@ -927,7 +927,7 @@ LAYER
 100
 AcDbSymbolTable
  70
-11
+12
   0
 LAYER
   5
@@ -1069,6 +1069,28 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
+Whisker_Sensor_Mount
+ 70
+0
+ 62
+7
+420
+16777215
+  6
+CONTINUOUS
+370
+25
+390
+F
+  0
+LAYER
+  5
+4A
+100
+AcDbSymbolTableRecord
+100
+AcDbLayerTableRecord
+  2
 Wheels
  70
 0
@@ -1085,7 +1107,7 @@ F
   0
 LAYER
   5
-4A
+4B
 100
 AcDbSymbolTableRecord
 100
@@ -1129,7 +1151,7 @@ F
   0
 LAYER
   5
-4B
+4C
 100
 AcDbSymbolTableRecord
 100
@@ -1151,7 +1173,7 @@ F
   0
 LAYER
   5
-4C
+4D
 100
 AcDbSymbolTableRecord
 100
@@ -1185,7 +1207,7 @@ AcDbSymbolTable
   0
 STYLE
   5
-4D
+4E
 100
 AcDbSymbolTableRecord
 100
@@ -1265,7 +1287,7 @@ ACAD
   0
 APPID
   5
-4E
+4F
 100
 AcDbSymbolTableRecord
 100
@@ -1343,7 +1365,7 @@ Standard
 284
 8
 340
-4D
+4E
   0
 ENDTAB
   0
@@ -1395,7 +1417,7 @@ AcDbBlockTableRecord
   0
 BLOCK_RECORD
   5
-4F
+50
 100
 AcDbSymbolTableRecord
 100
@@ -1407,7 +1429,7 @@ Battery_Holder
   0
 BLOCK_RECORD
   5
-50
+51
 100
 AcDbSymbolTableRecord
 100
@@ -1419,25 +1441,13 @@ Arduino
   0
 BLOCK_RECORD
   5
-51
-100
-AcDbSymbolTableRecord
-100
-AcDbBlockTableRecord
-  2
-Left_Wheel
-340
-0
-  0
-BLOCK_RECORD
-  5
 52
 100
 AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
-Speaker_Holes
+Left_Wheel
 340
 0
   0
@@ -1461,7 +1471,31 @@ AcDbSymbolTableRecord
 100
 AcDbBlockTableRecord
   2
+Speaker_Holes
+340
+0
+  0
+BLOCK_RECORD
+  5
+55
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
 Right_Wheel
+340
+0
+  0
+BLOCK_RECORD
+  5
+56
+100
+AcDbSymbolTableRecord
+100
+AcDbBlockTableRecord
+  2
+Whisker_Sensor
 340
 0
   0
@@ -1581,7 +1615,7 @@ AcDbBlockEnd
   0
 BLOCK
   5
-55
+57
 100
 AcDbEntity
   8
@@ -1605,62 +1639,6 @@ Battery_Holder
   0
 LINE
   5
-56
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Dimensions
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
--38.0
- 20
--22.0
- 30
-0.0
- 11
-38.0
- 21
--22.0
- 31
-0.0
-  0
-LINE
-  5
-57
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Dimensions
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
-38.0
- 20
--22.0
- 30
-0.0
- 11
-38.0
- 21
-22.0
- 31
-0.0
-  0
-LINE
-  5
 58
 100
 AcDbEntity
@@ -1675,6 +1653,62 @@ Dimensions
   6
 BYLAYER
  10
+-38.0
+ 20
+-22.0
+ 30
+0.0
+ 11
+38.0
+ 21
+-22.0
+ 31
+0.0
+  0
+LINE
+  5
+59
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Dimensions
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+38.0
+ 20
+-22.0
+ 30
+0.0
+ 11
+38.0
+ 21
+22.0
+ 31
+0.0
+  0
+LINE
+  5
+5A
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Dimensions
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
 38.0
  20
 22.0
@@ -1689,7 +1723,7 @@ BYLAYER
   0
 LINE
   5
-59
+5B
 100
 AcDbEntity
 100
@@ -1717,7 +1751,7 @@ BYLAYER
   0
 DIMENSION
   5
-5A
+5C
 100
 AcDbEntity
   8
@@ -1789,62 +1823,6 @@ DSTYLE
   0
 LINE
   5
-5B
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Battery
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
-5.0
- 20
-16.0
- 30
-0.0
- 11
-5.0
- 21
-19.0
- 31
-0.0
-  0
-LINE
-  5
-5C
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Battery
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
-5.0
- 20
-19.0
- 30
-0.0
- 11
--5.0
- 21
-19.0
- 31
-0.0
-  0
-LINE
-  5
 5D
 100
 AcDbEntity
@@ -1859,15 +1837,15 @@ Battery
   6
 BYLAYER
  10
--5.0
+5.0
  20
-19.0
+16.0
  30
 0.0
  11
--5.0
+5.0
  21
-16.0
+19.0
  31
 0.0
   0
@@ -1887,15 +1865,15 @@ Battery
   6
 BYLAYER
  10
--5.0
+5.0
  20
--19.0
+19.0
  30
 0.0
  11
-5.0
+-5.0
  21
--19.0
+19.0
  31
 0.0
   0
@@ -1915,15 +1893,15 @@ Battery
   6
 BYLAYER
  10
-5.0
+-5.0
  20
--19.0
+19.0
  30
 0.0
  11
-5.0
+-5.0
  21
--16.0
+16.0
  31
 0.0
   0
@@ -1945,11 +1923,11 @@ BYLAYER
  10
 -5.0
  20
--16.0
+-19.0
  30
 0.0
  11
--5.0
+5.0
  21
 -19.0
  31
@@ -1971,15 +1949,15 @@ Battery
   6
 BYLAYER
  10
--35.0
+5.0
  20
--5.0
+-19.0
  30
 0.0
  11
--32.0
+5.0
  21
--5.0
+-16.0
  31
 0.0
   0
@@ -1999,15 +1977,15 @@ Battery
   6
 BYLAYER
  10
--32.0
+-5.0
  20
-5.0
+-16.0
  30
 0.0
  11
--35.0
+-5.0
  21
-5.0
+-19.0
  31
 0.0
   0
@@ -2029,6 +2007,62 @@ BYLAYER
  10
 -35.0
  20
+-5.0
+ 30
+0.0
+ 11
+-32.0
+ 21
+-5.0
+ 31
+0.0
+  0
+LINE
+  5
+64
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Battery
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+-32.0
+ 20
+5.0
+ 30
+0.0
+ 11
+-35.0
+ 21
+5.0
+ 31
+0.0
+  0
+LINE
+  5
+65
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Battery
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+-35.0
+ 20
 5.0
  30
 0.0
@@ -2041,7 +2075,7 @@ BYLAYER
   0
 LINE
   5
-64
+66
 100
 AcDbEntity
 100
@@ -2069,7 +2103,7 @@ BYLAYER
   0
 LINE
   5
-65
+67
 100
 AcDbEntity
 100
@@ -2097,7 +2131,7 @@ BYLAYER
   0
 LINE
   5
-66
+68
 100
 AcDbEntity
 100
@@ -2125,7 +2159,7 @@ BYLAYER
   0
 DIMENSION
   5
-67
+69
 100
 AcDbEntity
   8
@@ -2197,62 +2231,6 @@ DSTYLE
   0
 LINE
   5
-68
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Battery
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
-5.0
- 20
-16.0
- 30
-0.0
- 11
--5.0
- 21
-16.0
- 31
-0.0
-  0
-LINE
-  5
-69
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Battery
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
-5.0
- 20
--16.0
- 30
-0.0
- 11
--5.0
- 21
--16.0
- 31
-0.0
-  0
-LINE
-  5
 6A
 100
 AcDbEntity
@@ -2267,15 +2245,15 @@ Battery
   6
 BYLAYER
  10
-32.0
+5.0
  20
--5.0
+16.0
  30
 0.0
  11
-32.0
+-5.0
  21
-5.0
+16.0
  31
 0.0
   0
@@ -2295,6 +2273,62 @@ Battery
   6
 BYLAYER
  10
+5.0
+ 20
+-16.0
+ 30
+0.0
+ 11
+-5.0
+ 21
+-16.0
+ 31
+0.0
+  0
+LINE
+  5
+6C
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Battery
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+32.0
+ 20
+-5.0
+ 30
+0.0
+ 11
+32.0
+ 21
+5.0
+ 31
+0.0
+  0
+LINE
+  5
+6D
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Battery
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
 -32.0
  20
 -5.0
@@ -2309,7 +2343,7 @@ BYLAYER
   0
 CIRCLE
   5
-6C
+6E
 100
 AcDbEntity
 100
@@ -2333,7 +2367,7 @@ BYLAYER
   0
 CIRCLE
   5
-6D
+6F
 100
 AcDbEntity
 100
@@ -2357,7 +2391,7 @@ BYLAYER
   0
 CIRCLE
   5
-6E
+70
 100
 AcDbEntity
 100
@@ -2381,7 +2415,7 @@ BYLAYER
   0
 CIRCLE
   5
-6F
+71
 100
 AcDbEntity
 100
@@ -2405,7 +2439,7 @@ BYLAYER
   0
 DIMENSION
   5
-70
+72
 100
 AcDbEntity
   8
@@ -2477,7 +2511,7 @@ DSTYLE
   0
 DIMENSION
   5
-71
+73
 100
 AcDbEntity
   8
@@ -2549,62 +2583,6 @@ DSTYLE
   0
 LINE
   5
-72
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Battery
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
--7.0
- 20
--10.0
- 30
-0.0
- 11
-7.0
- 21
--10.0
- 31
-0.0
-  0
-LINE
-  5
-73
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Battery
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
-10.0
- 20
--7.0
- 30
-0.0
- 11
-10.0
- 21
-7.0
- 31
-0.0
-  0
-LINE
-  5
 74
 100
 AcDbEntity
@@ -2619,6 +2597,62 @@ Battery
   6
 BYLAYER
  10
+-7.0
+ 20
+-10.0
+ 30
+0.0
+ 11
+7.0
+ 21
+-10.0
+ 31
+0.0
+  0
+LINE
+  5
+75
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Battery
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+10.0
+ 20
+-7.0
+ 30
+0.0
+ 11
+10.0
+ 21
+7.0
+ 31
+0.0
+  0
+LINE
+  5
+76
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Battery
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
 7.0
  20
 10.0
@@ -2633,7 +2667,7 @@ BYLAYER
   0
 LINE
   5
-75
+77
 100
 AcDbEntity
 100
@@ -2661,7 +2695,7 @@ BYLAYER
   0
 ARC
   5
-76
+78
 100
 AcDbEntity
   8
@@ -2691,7 +2725,7 @@ AcDbArc
   0
 ARC
   5
-77
+79
 100
 AcDbEntity
   8
@@ -2721,7 +2755,7 @@ AcDbArc
   0
 ARC
   5
-78
+7A
 100
 AcDbEntity
   8
@@ -2751,7 +2785,7 @@ AcDbArc
   0
 ARC
   5
-79
+7B
 100
 AcDbEntity
   8
@@ -2781,7 +2815,7 @@ AcDbArc
   0
 ENDBLK
   5
-7A
+7C
 100
 AcDbEntity
   8
@@ -2791,7 +2825,7 @@ AcDbBlockEnd
   0
 BLOCK
   5
-7B
+7D
 100
 AcDbEntity
   8
@@ -2815,7 +2849,7 @@ Arduino
   0
 CIRCLE
   5
-7C
+7E
 100
 AcDbEntity
 100
@@ -2839,7 +2873,7 @@ BYLAYER
   0
 LINE
   5
-7D
+7F
 100
 AcDbEntity
 100
@@ -2867,7 +2901,7 @@ BYLAYER
   0
 CIRCLE
   5
-7E
+80
 100
 AcDbEntity
 100
@@ -2891,7 +2925,7 @@ BYLAYER
   0
 LINE
   5
-7F
+81
 100
 AcDbEntity
 100
@@ -2919,7 +2953,7 @@ BYLAYER
   0
 DIMENSION
   5
-80
+82
 100
 AcDbEntity
   8
@@ -2983,7 +3017,7 @@ DSTYLE
   0
 LINE
   5
-81
+83
 100
 AcDbEntity
 100
@@ -3011,7 +3045,7 @@ BYLAYER
   0
 LINE
   5
-82
+84
 100
 AcDbEntity
 100
@@ -3039,7 +3073,7 @@ BYLAYER
   0
 LINE
   5
-83
+85
 100
 AcDbEntity
 100
@@ -3067,7 +3101,7 @@ BYLAYER
   0
 LINE
   5
-84
+86
 100
 AcDbEntity
 100
@@ -3095,7 +3129,7 @@ BYLAYER
   0
 LINE
   5
-85
+87
 100
 AcDbEntity
 100
@@ -3123,7 +3157,7 @@ BYLAYER
   0
 LINE
   5
-86
+88
 100
 AcDbEntity
 100
@@ -3151,7 +3185,7 @@ BYLAYER
   0
 CIRCLE
   5
-87
+89
 100
 AcDbEntity
 100
@@ -3175,7 +3209,7 @@ BYLAYER
   0
 LINE
   5
-88
+8A
 100
 AcDbEntity
 100
@@ -3203,7 +3237,7 @@ BYLAYER
   0
 CIRCLE
   5
-89
+8B
 100
 AcDbEntity
 100
@@ -3227,7 +3261,7 @@ BYLAYER
   0
 CIRCLE
   5
-8A
+8C
 100
 AcDbEntity
 100
@@ -3251,7 +3285,7 @@ BYLAYER
   0
 CIRCLE
   5
-8B
+8D
 100
 AcDbEntity
 100
@@ -3275,7 +3309,7 @@ BYLAYER
   0
 CIRCLE
   5
-8C
+8E
 100
 AcDbEntity
 100
@@ -3299,7 +3333,7 @@ BYLAYER
   0
 LINE
   5
-8D
+8F
 100
 AcDbEntity
 100
@@ -3329,7 +3363,7 @@ BYLAYER
   0
 LINE
   5
-8E
+90
 100
 AcDbEntity
 100
@@ -3359,7 +3393,7 @@ BYLAYER
   0
 LINE
   5
-8F
+91
 100
 AcDbEntity
 100
@@ -3389,7 +3423,7 @@ BYLAYER
   0
 LINE
   5
-90
+92
 100
 AcDbEntity
 100
@@ -3419,7 +3453,7 @@ BYLAYER
   0
 LINE
   5
-91
+93
 100
 AcDbEntity
 100
@@ -3449,7 +3483,7 @@ BYLAYER
   0
 HATCH
   5
-92
+94
   8
 Dimensions
  62
@@ -3539,7 +3573,7 @@ ACAD
   0
 ENDBLK
   5
-93
+95
 100
 AcDbEntity
   8
@@ -3549,7 +3583,7 @@ AcDbBlockEnd
   0
 BLOCK
   5
-94
+96
 100
 AcDbEntity
   8
@@ -3573,7 +3607,7 @@ Left_Wheel
   0
 LWPOLYLINE
   5
-95
+97
   8
 Wheels
  62
@@ -3649,7 +3683,7 @@ AcDbPolyline
   0
 CIRCLE
   5
-96
+98
 100
 AcDbEntity
 100
@@ -3673,7 +3707,7 @@ BYLAYER
   0
 CIRCLE
   5
-97
+99
 100
 AcDbEntity
 100
@@ -3697,7 +3731,7 @@ BYLAYER
   0
 LINE
   5
-98
+9A
 100
 AcDbEntity
 100
@@ -3725,7 +3759,7 @@ BYLAYER
   0
 LINE
   5
-99
+9B
 100
 AcDbEntity
 100
@@ -3753,7 +3787,7 @@ BYLAYER
   0
 LINE
   5
-9A
+9C
 100
 AcDbEntity
 100
@@ -3781,7 +3815,7 @@ BYLAYER
   0
 LINE
   5
-9B
+9D
 100
 AcDbEntity
 100
@@ -3809,7 +3843,7 @@ BYLAYER
   0
 LINE
   5
-9C
+9E
 100
 AcDbEntity
 100
@@ -3837,7 +3871,7 @@ BYLAYER
   0
 LINE
   5
-9D
+9F
 100
 AcDbEntity
 100
@@ -3865,7 +3899,7 @@ BYLAYER
   0
 LINE
   5
-9E
+A0
 100
 AcDbEntity
 100
@@ -3893,355 +3927,9 @@ BYLAYER
   0
 ENDBLK
   5
-9F
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockEnd
-  0
-BLOCK
-  5
-A0
-100
-AcDbEntity
-  8
-0
-100
-AcDbBlockBegin
-  2
-Speaker_Holes
- 70
-0
- 10
-0.0
- 20
-0.0
- 30
-0.0
-  3
-Speaker_Holes
-  1
-
-  0
-CIRCLE
-  5
 A1
 100
 AcDbEntity
-100
-AcDbCircle
-  8
-Dimensions
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
-0.0
- 20
-0.0
- 30
-0.0
- 40
-11.5
-  0
-CIRCLE
-  5
-A2
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-Speaker
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
-0.0
- 20
-9.0
- 30
-0.0
- 40
-1.5874999999999999
-  0
-CIRCLE
-  5
-A3
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-Speaker
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
--9.0
- 20
-0.0
- 30
-0.0
- 40
-1.5874999999999999
-  0
-CIRCLE
-  5
-A4
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-Speaker
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
-0.0
- 20
--9.0
- 30
-0.0
- 40
-1.5874999999999999
-  0
-CIRCLE
-  5
-A5
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-Speaker
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
-9.0
- 20
-0.0
- 30
-0.0
- 40
-1.5874999999999999
-  0
-CIRCLE
-  5
-A6
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-Speaker
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
--4.0
- 20
-0.0
- 30
-0.0
- 40
-1.5874999999999999
-  0
-CIRCLE
-  5
-A7
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-Speaker
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
--6.3639599999999996
- 20
-6.3639599999999996
- 30
-0.0
- 40
-1.5874999999999999
-  0
-CIRCLE
-  5
-A8
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-Speaker
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
-6.3639599999999996
- 20
-6.3639599999999996
- 30
-0.0
- 40
-1.5874999999999999
-  0
-CIRCLE
-  5
-A9
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-Speaker
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
-6.3639599999999996
- 20
--6.3639599999999996
- 30
-0.0
- 40
-1.5874999999999999
-  0
-CIRCLE
-  5
-AA
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-Speaker
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
--6.3639599999999996
- 20
--6.3639599999999996
- 30
-0.0
- 40
-1.5874999999999999
-  0
-CIRCLE
-  5
-AB
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-Speaker
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
-4.0
- 20
-0.0
- 30
-0.0
- 40
-1.5874999999999999
-  0
-CIRCLE
-  5
-AC
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-Speaker
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
-0.0
- 20
-4.0
- 30
-0.0
- 40
-1.5874999999999999
-  0
-CIRCLE
-  5
-AD
-100
-AcDbEntity
-100
-AcDbCircle
-  8
-Speaker
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
-0.0
- 20
--4.0
- 30
-0.0
- 40
-1.5874999999999999
-  0
-ENDBLK
-  5
-AE
-100
-AcDbEntity
   8
 0
 100
@@ -4249,7 +3937,7 @@ AcDbBlockEnd
   0
 BLOCK
   5
-AF
+A2
 100
 AcDbEntity
   8
@@ -4273,7 +3961,7 @@ Line_Sensor_Holes
   0
 LWPOLYLINE
   5
-B0
+A3
   8
 Line_Sensor
  62
@@ -4349,7 +4037,7 @@ AcDbPolyline
   0
 CIRCLE
   5
-B1
+A4
 100
 AcDbEntity
 100
@@ -4373,7 +4061,7 @@ BYLAYER
   0
 CIRCLE
   5
-B2
+A5
 100
 AcDbEntity
 100
@@ -4397,7 +4085,7 @@ BYLAYER
   0
 ENDBLK
   5
-B3
+A6
 100
 AcDbEntity
   8
@@ -4407,7 +4095,353 @@ AcDbBlockEnd
   0
 BLOCK
   5
+A7
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+Speaker_Holes
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+Speaker_Holes
+  1
+
+  0
+CIRCLE
+  5
+A8
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Dimensions
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 40
+11.5
+  0
+CIRCLE
+  5
+A9
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Speaker
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+0.0
+ 20
+9.0
+ 30
+0.0
+ 40
+1.5874999999999999
+  0
+CIRCLE
+  5
+AA
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Speaker
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+-9.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.5874999999999999
+  0
+CIRCLE
+  5
+AB
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Speaker
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+0.0
+ 20
+-9.0
+ 30
+0.0
+ 40
+1.5874999999999999
+  0
+CIRCLE
+  5
+AC
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Speaker
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+9.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.5874999999999999
+  0
+CIRCLE
+  5
+AD
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Speaker
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+-4.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.5874999999999999
+  0
+CIRCLE
+  5
+AE
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Speaker
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+-6.3639599999999996
+ 20
+6.3639599999999996
+ 30
+0.0
+ 40
+1.5874999999999999
+  0
+CIRCLE
+  5
+AF
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Speaker
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+6.3639599999999996
+ 20
+6.3639599999999996
+ 30
+0.0
+ 40
+1.5874999999999999
+  0
+CIRCLE
+  5
+B0
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Speaker
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+6.3639599999999996
+ 20
+-6.3639599999999996
+ 30
+0.0
+ 40
+1.5874999999999999
+  0
+CIRCLE
+  5
+B1
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Speaker
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+-6.3639599999999996
+ 20
+-6.3639599999999996
+ 30
+0.0
+ 40
+1.5874999999999999
+  0
+CIRCLE
+  5
+B2
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Speaker
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+4.0
+ 20
+0.0
+ 30
+0.0
+ 40
+1.5874999999999999
+  0
+CIRCLE
+  5
+B3
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Speaker
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+0.0
+ 20
+4.0
+ 30
+0.0
+ 40
+1.5874999999999999
+  0
+CIRCLE
+  5
 B4
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Speaker
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+0.0
+ 20
+-4.0
+ 30
+0.0
+ 40
+1.5874999999999999
+  0
+ENDBLK
+  5
+B5
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+B6
 100
 AcDbEntity
   8
@@ -4431,7 +4465,7 @@ Right_Wheel
   0
 LWPOLYLINE
   5
-B5
+B7
   8
 Wheels
  62
@@ -4507,7 +4541,7 @@ AcDbPolyline
   0
 CIRCLE
   5
-B6
+B8
 100
 AcDbEntity
 100
@@ -4531,7 +4565,7 @@ BYLAYER
   0
 CIRCLE
   5
-B7
+B9
 100
 AcDbEntity
 100
@@ -4555,7 +4589,7 @@ BYLAYER
   0
 DIMENSION
   5
-B8
+BA
 100
 AcDbEntity
   8
@@ -4619,7 +4653,7 @@ DSTYLE
   0
 DIMENSION
   5
-B9
+BB
 100
 AcDbEntity
   8
@@ -4691,7 +4725,7 @@ DSTYLE
   0
 DIMENSION
   5
-BA
+BC
 100
 AcDbEntity
   8
@@ -4763,7 +4797,7 @@ DSTYLE
   0
 LINE
   5
-BB
+BD
 100
 AcDbEntity
 100
@@ -4786,62 +4820,6 @@ BYLAYER
 -31.058400000000006
  21
 39.6761920000000003
- 31
-0.0
-  0
-LINE
-  5
-BC
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Dimensions
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
--31.058400000000006
- 20
-33.8761920000000032
- 30
-0.0
- 11
--3.558400000000006
- 21
-33.8761920000000032
- 31
-0.0
-  0
-LINE
-  5
-BD
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Dimensions
- 62
-256
-370
--1
-  6
-BYLAYER
- 10
--3.558400000000006
- 20
-33.8761920000000032
- 30
-0.0
- 11
--3.558400000000006
- 21
-18.8761920000000032
  31
 0.0
   0
@@ -4863,6 +4841,62 @@ BYLAYER
  10
 -31.058400000000006
  20
+33.8761920000000032
+ 30
+0.0
+ 11
+-3.558400000000006
+ 21
+33.8761920000000032
+ 31
+0.0
+  0
+LINE
+  5
+BF
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Dimensions
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+-3.558400000000006
+ 20
+33.8761920000000032
+ 30
+0.0
+ 11
+-3.558400000000006
+ 21
+18.8761920000000032
+ 31
+0.0
+  0
+LINE
+  5
+C0
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Dimensions
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+-31.058400000000006
+ 20
 39.6761920000000003
  30
 0.0
@@ -4875,7 +4909,7 @@ BYLAYER
   0
 LINE
   5
-BF
+C1
 100
 AcDbEntity
 100
@@ -4903,7 +4937,7 @@ BYLAYER
   0
 LINE
   5
-C0
+C2
 100
 AcDbEntity
 100
@@ -4931,7 +4965,7 @@ BYLAYER
   0
 LINE
   5
-C1
+C3
 100
 AcDbEntity
 100
@@ -4959,7 +4993,461 @@ BYLAYER
   0
 ENDBLK
   5
-C2
+C4
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockEnd
+  0
+BLOCK
+  5
+C5
+100
+AcDbEntity
+  8
+0
+100
+AcDbBlockBegin
+  2
+Whisker_Sensor
+ 70
+0
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+  3
+Whisker_Sensor
+  1
+
+  0
+CIRCLE
+  5
+C6
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Whisker_Sensor_Mount
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+-4.75
+ 20
+0.0
+ 30
+0.0
+ 40
+1.2
+  0
+CIRCLE
+  5
+C7
+100
+AcDbEntity
+100
+AcDbCircle
+  8
+Whisker_Sensor_Mount
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+4.75
+ 20
+0.0
+ 30
+0.0
+ 40
+1.2
+  0
+LINE
+  5
+C8
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Dimensions
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+-10.0
+ 20
+-2.5
+ 30
+0.0
+ 11
+10.0
+ 21
+-2.5
+ 31
+0.0
+  0
+LINE
+  5
+C9
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Dimensions
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+10.0
+ 20
+-2.5
+ 30
+0.0
+ 11
+10.0
+ 21
+7.7000000000000002
+ 31
+0.0
+  0
+LINE
+  5
+CA
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Dimensions
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+10.0
+ 20
+7.7000000000000002
+ 30
+0.0
+ 11
+-10.0
+ 21
+7.7000000000000002
+ 31
+0.0
+  0
+LINE
+  5
+CB
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Dimensions
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+-10.0
+ 20
+7.7000000000000002
+ 30
+0.0
+ 11
+-10.0
+ 21
+-2.5
+ 31
+0.0
+  0
+LINE
+  5
+CC
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Dimensions
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+7.971272659162544
+ 20
+7.7043187465132199
+ 30
+0.0
+ 11
+-8.0
+ 21
+12.0
+ 31
+0.0
+  0
+LINE
+  5
+CD
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Whisker_Sensor_Mount
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+-7.0500000000000007
+ 20
+-11.0
+ 30
+0.0
+ 11
+7.0500000000000007
+ 21
+-11.0
+ 31
+0.0
+  0
+LINE
+  5
+CE
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Whisker_Sensor_Mount
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+8.0500000000000007
+ 20
+-10.0
+ 30
+0.0
+ 11
+8.0500000000000007
+ 21
+-8.0
+ 31
+0.0
+  0
+LINE
+  5
+CF
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Whisker_Sensor_Mount
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+7.0500000000000007
+ 20
+-7.0
+ 30
+0.0
+ 11
+-7.0500000000000007
+ 21
+-7.0
+ 31
+0.0
+  0
+LINE
+  5
+D0
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Whisker_Sensor_Mount
+ 62
+256
+370
+-1
+  6
+BYLAYER
+ 10
+-8.0500000000000007
+ 20
+-8.0
+ 30
+0.0
+ 11
+-8.0500000000000007
+ 21
+-9.9999999999999982
+ 31
+0.0
+  0
+ARC
+  5
+D1
+100
+AcDbEntity
+  8
+Whisker_Sensor_Mount
+ 62
+256
+370
+-1
+  6
+BYLAYER
+100
+AcDbCircle
+ 10
+-7.0500000000000007
+ 20
+-8.0
+ 30
+0.0
+ 40
+1.0
+100
+AcDbArc
+ 50
+90.0
+ 51
+180.0
+  0
+ARC
+  5
+D2
+100
+AcDbEntity
+  8
+Whisker_Sensor_Mount
+ 62
+256
+370
+-1
+  6
+BYLAYER
+100
+AcDbCircle
+ 10
+7.0500000000000007
+ 20
+-8.0
+ 30
+0.0
+ 40
+1.0
+100
+AcDbArc
+ 50
+0.0
+ 51
+90.0
+  0
+ARC
+  5
+D3
+100
+AcDbEntity
+  8
+Whisker_Sensor_Mount
+ 62
+256
+370
+-1
+  6
+BYLAYER
+100
+AcDbCircle
+ 10
+7.0500000000000007
+ 20
+-10.0
+ 30
+0.0
+ 40
+1.0
+100
+AcDbArc
+ 50
+270.0
+ 51
+0.0
+  0
+ARC
+  5
+D4
+100
+AcDbEntity
+  8
+Whisker_Sensor_Mount
+ 62
+256
+370
+-1
+  6
+BYLAYER
+100
+AcDbCircle
+ 10
+-7.0500000000000007
+ 20
+-9.9999999999999982
+ 30
+0.0
+ 40
+1.0
+100
+AcDbArc
+ 50
+180.0
+ 51
+270.0
+  0
+ENDBLK
+  5
+D5
 100
 AcDbEntity
   8
@@ -4975,7 +5463,7 @@ ENTITIES
   0
 LWPOLYLINE
   5
-C3
+D6
   8
 Ball_Wheel
  62
@@ -5033,7 +5521,7 @@ AcDbPolyline
   0
 INSERT
   5
-C4
+D7
 100
 AcDbEntity
 100
@@ -5059,7 +5547,7 @@ Arduino
   0
 INSERT
   5
-C5
+D8
 100
 AcDbEntity
 100
@@ -5083,7 +5571,7 @@ Right_Wheel
   0
 INSERT
   5
-C6
+D9
 100
 AcDbEntity
 100
@@ -5107,7 +5595,7 @@ Left_Wheel
   0
 CIRCLE
   5
-C7
+DA
 100
 AcDbEntity
 100
@@ -5131,7 +5619,7 @@ BYLAYER
   0
 CIRCLE
   5
-C8
+DB
 100
 AcDbEntity
 100
@@ -5155,7 +5643,7 @@ BYLAYER
   0
 CIRCLE
   5
-C9
+DC
 100
 AcDbEntity
 100
@@ -5179,7 +5667,7 @@ BYLAYER
   0
 CIRCLE
   5
-CA
+DD
 100
 AcDbEntity
 100
@@ -5203,7 +5691,7 @@ BYLAYER
   0
 INSERT
   5
-CB
+DE
 100
 AcDbEntity
 100
@@ -5227,7 +5715,7 @@ Battery_Holder
   0
 INSERT
   5
-CC
+DF
 100
 AcDbEntity
 100
@@ -5251,7 +5739,7 @@ Speaker_Holes
   0
 INSERT
   5
-CD
+E0
 100
 AcDbEntity
 100
@@ -5275,7 +5763,7 @@ Line_Sensor_Holes
   0
 LINE
   5
-CE
+E1
 100
 AcDbEntity
 100
@@ -5303,7 +5791,7 @@ BYLAYER
   0
 LINE
   5
-CF
+E2
 100
 AcDbEntity
 100
@@ -5331,7 +5819,7 @@ BYLAYER
   0
 ARC
   5
-D0
+E3
 100
 AcDbEntity
   8
@@ -5361,7 +5849,7 @@ AcDbArc
   0
 LINE
   5
-D1
+E4
 100
 AcDbEntity
 100
@@ -5389,7 +5877,7 @@ BYLAYER
   0
 LINE
   5
-D2
+E5
 100
 AcDbEntity
 100
@@ -5417,7 +5905,7 @@ BYLAYER
   0
 ARC
   5
-D3
+E6
 100
 AcDbEntity
   8
@@ -5447,7 +5935,7 @@ AcDbArc
   0
 ARC
   5
-D4
+E7
 100
 AcDbEntity
   8
@@ -5477,7 +5965,7 @@ AcDbArc
   0
 LINE
   5
-D5
+E8
 100
 AcDbEntity
 100
@@ -5505,7 +5993,7 @@ BYLAYER
   0
 LINE
   5
-D6
+E9
 100
 AcDbEntity
 100
@@ -5533,7 +6021,7 @@ BYLAYER
   0
 ARC
   5
-D7
+EA
 100
 AcDbEntity
   8
@@ -5563,7 +6051,7 @@ AcDbArc
   0
 LINE
   5
-D8
+EB
 100
 AcDbEntity
 100
@@ -5591,7 +6079,7 @@ BYLAYER
   0
 LINE
   5
-D9
+EC
 100
 AcDbEntity
 100
@@ -5619,7 +6107,7 @@ BYLAYER
   0
 ARC
   5
-DA
+ED
 100
 AcDbEntity
   8
@@ -5649,7 +6137,7 @@ AcDbArc
   0
 ARC
   5
-DB
+EE
 100
 AcDbEntity
   8
@@ -5679,7 +6167,7 @@ AcDbArc
   0
 LINE
   5
-DC
+EF
 100
 AcDbEntity
 100
@@ -5707,7 +6195,7 @@ BYLAYER
   0
 LINE
   5
-DD
+F0
 100
 AcDbEntity
 100
@@ -5735,7 +6223,7 @@ BYLAYER
   0
 ARC
   5
-DE
+F1
 100
 AcDbEntity
   8
@@ -5765,7 +6253,7 @@ AcDbArc
   0
 LINE
   5
-DF
+F2
 100
 AcDbEntity
 100
@@ -5793,7 +6281,7 @@ BYLAYER
   0
 LINE
   5
-E0
+F3
 100
 AcDbEntity
 100
@@ -5821,7 +6309,7 @@ BYLAYER
   0
 ARC
   5
-E1
+F4
 100
 AcDbEntity
   8
@@ -5851,7 +6339,7 @@ AcDbArc
   0
 ARC
   5
-E2
+F5
 100
 AcDbEntity
   8
@@ -5881,7 +6369,7 @@ AcDbArc
   0
 LINE
   5
-E3
+F6
 100
 AcDbEntity
 100
@@ -5909,7 +6397,7 @@ BYLAYER
   0
 LINE
   5
-E4
+F7
 100
 AcDbEntity
 100
@@ -5937,7 +6425,7 @@ BYLAYER
   0
 ARC
   5
-E5
+F8
 100
 AcDbEntity
   8
@@ -5967,7 +6455,7 @@ AcDbArc
   0
 LINE
   5
-E6
+F9
 100
 AcDbEntity
 100
@@ -5995,7 +6483,7 @@ BYLAYER
   0
 LINE
   5
-E7
+FA
 100
 AcDbEntity
 100
@@ -6023,7 +6511,7 @@ BYLAYER
   0
 ARC
   5
-E8
+FB
 100
 AcDbEntity
   8
@@ -6053,7 +6541,7 @@ AcDbArc
   0
 ARC
   5
-E9
+FC
 100
 AcDbEntity
   8
@@ -6083,7 +6571,7 @@ AcDbArc
   0
 LINE
   5
-EA
+FD
 100
 AcDbEntity
 100
@@ -6111,7 +6599,7 @@ BYLAYER
   0
 LINE
   5
-EB
+FE
 100
 AcDbEntity
 100
@@ -6139,7 +6627,7 @@ BYLAYER
   0
 ARC
   5
-EC
+FF
 100
 AcDbEntity
   8
@@ -6169,7 +6657,7 @@ AcDbArc
   0
 LINE
   5
-ED
+100
 100
 AcDbEntity
 100
@@ -6197,7 +6685,7 @@ BYLAYER
   0
 LINE
   5
-EE
+101
 100
 AcDbEntity
 100
@@ -6225,7 +6713,7 @@ BYLAYER
   0
 ARC
   5
-EF
+102
 100
 AcDbEntity
   8
@@ -6255,7 +6743,7 @@ AcDbArc
   0
 ARC
   5
-F0
+103
 100
 AcDbEntity
   8
@@ -6285,7 +6773,7 @@ AcDbArc
   0
 LINE
   5
-F1
+104
 100
 AcDbEntity
 100
@@ -6313,7 +6801,7 @@ BYLAYER
   0
 LINE
   5
-F2
+105
 100
 AcDbEntity
 100
@@ -6341,7 +6829,7 @@ BYLAYER
   0
 ARC
   5
-F3
+106
 100
 AcDbEntity
   8
@@ -6371,7 +6859,7 @@ AcDbArc
   0
 LINE
   5
-F4
+107
 100
 AcDbEntity
 100
@@ -6399,7 +6887,7 @@ BYLAYER
   0
 LINE
   5
-F5
+108
 100
 AcDbEntity
 100
@@ -6427,7 +6915,7 @@ BYLAYER
   0
 ARC
   5
-F6
+109
 100
 AcDbEntity
   8
@@ -6457,7 +6945,7 @@ AcDbArc
   0
 ARC
   5
-F7
+10A
 100
 AcDbEntity
   8
@@ -6487,7 +6975,7 @@ AcDbArc
   0
 LINE
   5
-F8
+10B
 100
 AcDbEntity
 100
@@ -6515,7 +7003,7 @@ BYLAYER
   0
 LINE
   5
-F9
+10C
 100
 AcDbEntity
 100
@@ -6543,7 +7031,7 @@ BYLAYER
   0
 ARC
   5
-FA
+10D
 100
 AcDbEntity
   8
@@ -6573,7 +7061,7 @@ AcDbArc
   0
 LINE
   5
-FB
+10E
 100
 AcDbEntity
 100
@@ -6601,7 +7089,7 @@ BYLAYER
   0
 LINE
   5
-FC
+10F
 100
 AcDbEntity
 100
@@ -6629,7 +7117,7 @@ BYLAYER
   0
 ARC
   5
-FD
+110
 100
 AcDbEntity
   8
@@ -6659,7 +7147,7 @@ AcDbArc
   0
 ARC
   5
-FE
+111
 100
 AcDbEntity
   8
@@ -6689,7 +7177,7 @@ AcDbArc
   0
 LINE
   5
-FF
+112
 100
 AcDbEntity
 100
@@ -6717,7 +7205,7 @@ BYLAYER
   0
 LINE
   5
-100
+113
 100
 AcDbEntity
 100
@@ -6745,7 +7233,7 @@ BYLAYER
   0
 ARC
   5
-101
+114
 100
 AcDbEntity
   8
@@ -6775,7 +7263,7 @@ AcDbArc
   0
 LINE
   5
-102
+115
 100
 AcDbEntity
 100
@@ -6803,7 +7291,7 @@ BYLAYER
   0
 LINE
   5
-103
+116
 100
 AcDbEntity
 100
@@ -6831,7 +7319,7 @@ BYLAYER
   0
 ARC
   5
-104
+117
 100
 AcDbEntity
   8
@@ -6861,7 +7349,7 @@ AcDbArc
   0
 ARC
   5
-105
+118
 100
 AcDbEntity
   8
@@ -6891,7 +7379,7 @@ AcDbArc
   0
 ARC
   5
-106
+119
 100
 AcDbEntity
   8
@@ -6921,7 +7409,7 @@ AcDbArc
   0
 ARC
   5
-107
+11A
 100
 AcDbEntity
   8
@@ -6951,7 +7439,7 @@ AcDbArc
   0
 ARC
   5
-108
+11B
 100
 AcDbEntity
   8
@@ -6981,7 +7469,7 @@ AcDbArc
   0
 ARC
   5
-109
+11C
 100
 AcDbEntity
   8
@@ -7011,7 +7499,7 @@ AcDbArc
   0
 ARC
   5
-10A
+11D
 100
 AcDbEntity
   8
@@ -7041,7 +7529,7 @@ AcDbArc
   0
 ARC
   5
-10B
+11E
 100
 AcDbEntity
   8
@@ -7071,7 +7559,7 @@ AcDbArc
   0
 ARC
   5
-10C
+11F
 100
 AcDbEntity
   8
@@ -7101,7 +7589,7 @@ AcDbArc
   0
 ARC
   5
-10D
+120
 100
 AcDbEntity
   8
@@ -7131,7 +7619,7 @@ AcDbArc
   0
 DIMENSION
   5
-10E
+121
 100
 AcDbEntity
   8
@@ -7203,7 +7691,7 @@ DSTYLE
   0
 CIRCLE
   5
-10F
+122
 100
 AcDbEntity
 100
@@ -7227,7 +7715,7 @@ BYLAYER
   0
 CIRCLE
   5
-110
+123
 100
 AcDbEntity
 100
@@ -7251,7 +7739,7 @@ BYLAYER
   0
 CIRCLE
   5
-111
+124
 100
 AcDbEntity
 100
@@ -7275,7 +7763,7 @@ BYLAYER
   0
 CIRCLE
   5
-112
+125
 100
 AcDbEntity
 100
@@ -7296,6 +7784,64 @@ BYLAYER
 0.0
  40
 3.6499999999999999
+  0
+INSERT
+  5
+126
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+Whisker_Sensor_Mount
+ 62
+256
+370
+-1
+  6
+BYLAYER
+  2
+Whisker_Sensor
+ 10
+-58.8896999999999977
+ 20
+-34.0
+ 30
+0.0
+ 50
+120.0
+  0
+INSERT
+  5
+127
+100
+AcDbEntity
+100
+AcDbBlockReference
+  8
+Whisker_Sensor_Mount
+ 62
+256
+370
+-1
+  6
+BYLAYER
+  2
+Whisker_Sensor
+ 10
+58.8896999999999977
+ 20
+-34.0
+ 30
+0.0
+ 41
+-1.0
+ 42
+1.0
+ 43
+1.0
+ 50
+240.0
   0
 ENDSEC
   0
@@ -7335,11 +7881,11 @@ E
   3
 AcDbVariableDictionary
 350
-113
+128
   3
 QCAD_OBJECTS
 350
-114
+129
   0
 DICTIONARY
   5
@@ -7803,7 +8349,7 @@ Layout2
   0
 DICTIONARY
   5
-113
+128
 100
 AcDbDictionary
 281
@@ -7811,15 +8357,15 @@ AcDbDictionary
   3
 DIMASSOC
 350
-116
+12B
   3
 HIDETEXT
 350
-115
+12A
   0
 DICTIONARYVAR
   5
-115
+12A
 100
 DictionaryVariables
 280
@@ -7829,7 +8375,7 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-116
+12B
 100
 DictionaryVariables
 280
@@ -7839,7 +8385,7 @@ DictionaryVariables
   0
 DICTIONARY
   5
-114
+129
 100
 AcDbDictionary
 281
@@ -7847,185 +8393,185 @@ AcDbDictionary
   3
 ColorSettings/ColorMode
 350
-117
+12C
   3
 Grid/DisplayGrid00
 350
-118
+12D
   3
 Grid/DisplayGrid01
 350
-119
+12E
   3
 Grid/DisplayGrid02
 350
-11A
+12F
   3
 Grid/DisplayGrid03
 350
-11B
+130
   3
 Grid/GridSpacingX00
 350
-11C
+131
   3
 Grid/GridSpacingX01
 350
-11D
+132
   3
 Grid/GridSpacingX02
 350
-11E
+133
   3
 Grid/GridSpacingX03
 350
-11F
+134
   3
 Grid/GridSpacingY00
 350
-120
+135
   3
 Grid/GridSpacingY01
 350
-121
+136
   3
 Grid/GridSpacingY02
 350
-122
+137
   3
 Grid/GridSpacingY03
 350
-123
+138
   3
 Grid/IsometricGrid00
 350
-124
+139
   3
 Grid/IsometricGrid01
 350
-125
+13A
   3
 Grid/IsometricGrid02
 350
-126
+13B
   3
 Grid/IsometricGrid03
 350
-127
+13C
   3
 Grid/IsometricProjection00
 350
-128
+13D
   3
 Grid/IsometricProjection01
 350
-129
+13E
   3
 Grid/IsometricProjection02
 350
-12A
+13F
   3
 Grid/IsometricProjection03
 350
-12B
+140
   3
 Grid/MetaGridSpacingX00
 350
-12C
+141
   3
 Grid/MetaGridSpacingX01
 350
-12D
+142
   3
 Grid/MetaGridSpacingX02
 350
-12E
+143
   3
 Grid/MetaGridSpacingX03
 350
-12F
+144
   3
 Grid/MetaGridSpacingY00
 350
-130
+145
   3
 Grid/MetaGridSpacingY01
 350
-131
+146
   3
 Grid/MetaGridSpacingY02
 350
-132
+147
   3
 Grid/MetaGridSpacingY03
 350
-133
+148
   3
 MultiPageSettings/Columns
 350
-134
+149
   3
 MultiPageSettings/GlueMarginsBottom
 350
-135
+14A
   3
 MultiPageSettings/GlueMarginsLeft
 350
-136
+14B
   3
 MultiPageSettings/GlueMarginsRight
 350
-137
+14C
   3
 MultiPageSettings/GlueMarginsTop
 350
-138
+14D
   3
 MultiPageSettings/PrintCropMarks
 350
-139
+14E
   3
 MultiPageSettings/Rows
 350
-13A
+14F
   3
 PageSettings/OffsetX
 350
-13B
+150
   3
 PageSettings/OffsetY
 350
-13C
+151
   3
 PageSettings/PageOrientation
 350
-13D
+152
   3
 PageSettings/PaperHeight
 350
-13E
+153
   3
 PageSettings/PaperWidth
 350
-13F
+154
   3
 PageSettings/Scale
 350
-140
+155
   3
 PageSettings/ShowPaperBorders
 350
-141
+156
   3
 UnitSettings/PaperUnit
 350
-142
+157
   0
 XRECORD
   5
-117
+12C
 330
-114
+129
 100
 AcDbXrecord
 280
@@ -8035,309 +8581,57 @@ FullColor
   0
 XRECORD
   5
-118
-330
-114
-100
-AcDbXrecord
-280
-1
-290
-1
-  0
-XRECORD
-  5
-119
-330
-114
-100
-AcDbXrecord
-280
-1
-290
-1
-  0
-XRECORD
-  5
-11A
-330
-114
-100
-AcDbXrecord
-280
-1
-290
-1
-  0
-XRECORD
-  5
-11B
-330
-114
-100
-AcDbXrecord
-280
-1
-290
-1
-  0
-XRECORD
-  5
-11C
-330
-114
-100
-AcDbXrecord
-280
-1
-1000
-auto
-  0
-XRECORD
-  5
-11D
-330
-114
-100
-AcDbXrecord
-280
-1
-1000
-auto
-  0
-XRECORD
-  5
-11E
-330
-114
-100
-AcDbXrecord
-280
-1
-1000
-auto
-  0
-XRECORD
-  5
-11F
-330
-114
-100
-AcDbXrecord
-280
-1
-1000
-auto
-  0
-XRECORD
-  5
-120
-330
-114
-100
-AcDbXrecord
-280
-1
-1000
-auto
-  0
-XRECORD
-  5
-121
-330
-114
-100
-AcDbXrecord
-280
-1
-1000
-auto
-  0
-XRECORD
-  5
-122
-330
-114
-100
-AcDbXrecord
-280
-1
-1000
-auto
-  0
-XRECORD
-  5
-123
-330
-114
-100
-AcDbXrecord
-280
-1
-1000
-auto
-  0
-XRECORD
-  5
-124
-330
-114
-100
-AcDbXrecord
-280
-1
-290
-0
-  0
-XRECORD
-  5
-125
-330
-114
-100
-AcDbXrecord
-280
-1
-290
-0
-  0
-XRECORD
-  5
-126
-330
-114
-100
-AcDbXrecord
-280
-1
-290
-0
-  0
-XRECORD
-  5
-127
-330
-114
-100
-AcDbXrecord
-280
-1
-290
-0
-  0
-XRECORD
-  5
-128
-330
-114
-100
-AcDbXrecord
-280
-1
- 90
-4
-  0
-XRECORD
-  5
-129
-330
-114
-100
-AcDbXrecord
-280
-1
- 90
-0
-  0
-XRECORD
-  5
-12A
-330
-114
-100
-AcDbXrecord
-280
-1
- 90
-0
-  0
-XRECORD
-  5
-12B
-330
-114
-100
-AcDbXrecord
-280
-1
- 90
-0
-  0
-XRECORD
-  5
-12C
-330
-114
-100
-AcDbXrecord
-280
-1
-1000
-auto
-  0
-XRECORD
-  5
 12D
 330
-114
+129
 100
 AcDbXrecord
 280
 1
-1000
-auto
+290
+1
   0
 XRECORD
   5
 12E
 330
-114
+129
 100
 AcDbXrecord
 280
 1
-1000
-auto
+290
+1
   0
 XRECORD
   5
 12F
 330
-114
+129
 100
 AcDbXrecord
 280
 1
-1000
-auto
+290
+1
   0
 XRECORD
   5
 130
 330
-114
+129
 100
 AcDbXrecord
 280
 1
-1000
-auto
+290
+1
   0
 XRECORD
   5
 131
 330
-114
+129
 100
 AcDbXrecord
 280
@@ -8349,7 +8643,7 @@ XRECORD
   5
 132
 330
-114
+129
 100
 AcDbXrecord
 280
@@ -8361,7 +8655,7 @@ XRECORD
   5
 133
 330
-114
+129
 100
 AcDbXrecord
 280
@@ -8373,67 +8667,67 @@ XRECORD
   5
 134
 330
-114
+129
 100
 AcDbXrecord
 280
 1
- 90
-1
+1000
+auto
   0
 XRECORD
   5
 135
 330
-114
+129
 100
 AcDbXrecord
 280
 1
- 40
-10.0
+1000
+auto
   0
 XRECORD
   5
 136
 330
-114
+129
 100
 AcDbXrecord
 280
 1
- 40
-10.0
+1000
+auto
   0
 XRECORD
   5
 137
 330
-114
+129
 100
 AcDbXrecord
 280
 1
- 40
-10.0
+1000
+auto
   0
 XRECORD
   5
 138
 330
-114
+129
 100
 AcDbXrecord
 280
 1
- 40
-10.0
+1000
+auto
   0
 XRECORD
   5
 139
 330
-114
+129
 100
 AcDbXrecord
 280
@@ -8445,7 +8739,187 @@ XRECORD
   5
 13A
 330
-114
+129
+100
+AcDbXrecord
+280
+1
+290
+0
+  0
+XRECORD
+  5
+13B
+330
+129
+100
+AcDbXrecord
+280
+1
+290
+0
+  0
+XRECORD
+  5
+13C
+330
+129
+100
+AcDbXrecord
+280
+1
+290
+0
+  0
+XRECORD
+  5
+13D
+330
+129
+100
+AcDbXrecord
+280
+1
+ 90
+4
+  0
+XRECORD
+  5
+13E
+330
+129
+100
+AcDbXrecord
+280
+1
+ 90
+0
+  0
+XRECORD
+  5
+13F
+330
+129
+100
+AcDbXrecord
+280
+1
+ 90
+0
+  0
+XRECORD
+  5
+140
+330
+129
+100
+AcDbXrecord
+280
+1
+ 90
+0
+  0
+XRECORD
+  5
+141
+330
+129
+100
+AcDbXrecord
+280
+1
+1000
+auto
+  0
+XRECORD
+  5
+142
+330
+129
+100
+AcDbXrecord
+280
+1
+1000
+auto
+  0
+XRECORD
+  5
+143
+330
+129
+100
+AcDbXrecord
+280
+1
+1000
+auto
+  0
+XRECORD
+  5
+144
+330
+129
+100
+AcDbXrecord
+280
+1
+1000
+auto
+  0
+XRECORD
+  5
+145
+330
+129
+100
+AcDbXrecord
+280
+1
+1000
+auto
+  0
+XRECORD
+  5
+146
+330
+129
+100
+AcDbXrecord
+280
+1
+1000
+auto
+  0
+XRECORD
+  5
+147
+330
+129
+100
+AcDbXrecord
+280
+1
+1000
+auto
+  0
+XRECORD
+  5
+148
+330
+129
+100
+AcDbXrecord
+280
+1
+1000
+auto
+  0
+XRECORD
+  5
+149
+330
+129
 100
 AcDbXrecord
 280
@@ -8455,9 +8929,81 @@ AcDbXrecord
   0
 XRECORD
   5
-13B
+14A
 330
-114
+129
+100
+AcDbXrecord
+280
+1
+ 40
+10.0
+  0
+XRECORD
+  5
+14B
+330
+129
+100
+AcDbXrecord
+280
+1
+ 40
+10.0
+  0
+XRECORD
+  5
+14C
+330
+129
+100
+AcDbXrecord
+280
+1
+ 40
+10.0
+  0
+XRECORD
+  5
+14D
+330
+129
+100
+AcDbXrecord
+280
+1
+ 40
+10.0
+  0
+XRECORD
+  5
+14E
+330
+129
+100
+AcDbXrecord
+280
+1
+290
+0
+  0
+XRECORD
+  5
+14F
+330
+129
+100
+AcDbXrecord
+280
+1
+ 90
+1
+  0
+XRECORD
+  5
+150
+330
+129
 100
 AcDbXrecord
 280
@@ -8467,9 +9013,9 @@ AcDbXrecord
   0
 XRECORD
   5
-13C
+151
 330
-114
+129
 100
 AcDbXrecord
 280
@@ -8479,9 +9025,9 @@ AcDbXrecord
   0
 XRECORD
   5
-13D
+152
 330
-114
+129
 100
 AcDbXrecord
 280
@@ -8491,9 +9037,9 @@ Portrait
   0
 XRECORD
   5
-13E
+153
 330
-114
+129
 100
 AcDbXrecord
 280
@@ -8503,9 +9049,9 @@ AcDbXrecord
   0
 XRECORD
   5
-13F
+154
 330
-114
+129
 100
 AcDbXrecord
 280
@@ -8515,9 +9061,9 @@ AcDbXrecord
   0
 XRECORD
   5
-140
+155
 330
-114
+129
 100
 AcDbXrecord
 280
@@ -8527,9 +9073,9 @@ AcDbXrecord
   0
 XRECORD
   5
-141
+156
 330
-114
+129
 100
 AcDbXrecord
 280
@@ -8539,9 +9085,9 @@ AcDbXrecord
   0
 XRECORD
   5
-142
+157
 330
-114
+129
 100
 AcDbXrecord
 280
