@@ -939,9 +939,9 @@ AcDbLayerTableRecord
   2
 Dimensions
  70
-0
+1
  62
-3
+-3
 420
 65280
   6
@@ -959,7 +959,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
   2
-Parts
+Cut_First
  70
 0
  62
@@ -969,7 +969,7 @@ Parts
   6
 CONTINUOUS
 370
-25
+0
 390
 F
   0
@@ -1387,7 +1387,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1415,7 +1415,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1443,7 +1443,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1471,7 +1471,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1499,7 +1499,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1527,7 +1527,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1555,7 +1555,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1583,7 +1583,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1611,7 +1611,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1639,7 +1639,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1667,7 +1667,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1695,7 +1695,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1723,7 +1723,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1751,7 +1751,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1779,7 +1779,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1807,7 +1807,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1835,7 +1835,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1863,7 +1863,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1891,7 +1891,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1919,7 +1919,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1947,7 +1947,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -1975,7 +1975,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2003,7 +2003,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2031,7 +2031,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2059,7 +2059,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2087,7 +2087,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2115,7 +2115,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2143,7 +2143,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2171,7 +2171,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2199,7 +2199,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2227,7 +2227,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2255,7 +2255,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2283,7 +2283,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2311,7 +2311,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2339,7 +2339,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2367,7 +2367,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2395,7 +2395,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2423,7 +2423,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2451,7 +2451,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2479,7 +2479,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2829,7 +2829,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2857,7 +2857,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2885,7 +2885,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2913,7 +2913,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2941,7 +2941,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2969,7 +2969,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -2997,7 +2997,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -3025,7 +3025,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -3053,7 +3053,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -3081,7 +3081,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -3109,7 +3109,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -3137,7 +3137,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -3165,7 +3165,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -3193,7 +3193,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -3221,7 +3221,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -3249,7 +3249,7 @@ AcDbEntity
 100
 AcDbLine
   8
-Parts
+Cut_First
  62
 256
 370
@@ -3581,7 +3581,7 @@ AcDbEntity
 100
 AcDbBlockReference
   8
-Parts
+Cut_First
  62
 256
 370
@@ -3605,7 +3605,7 @@ AcDbEntity
 100
 AcDbBlockReference
   8
-Parts
+Cut_First
  62
 256
 370
@@ -3629,7 +3629,7 @@ AcDbEntity
 100
 AcDbBlockReference
   8
-Parts
+Cut_First
  62
 256
 370
@@ -3653,7 +3653,7 @@ AcDbEntity
 100
 AcDbBlockReference
   8
-Parts
+Cut_First
  62
 256
 370
