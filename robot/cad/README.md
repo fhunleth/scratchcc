@@ -11,4 +11,9 @@ Here are some notes:
 1. Be sure to set all cutting layers in QCad to 0.0 mm thickness lines. This is not the QCAD default thickness.
 2. Setting the lines to different colors lets you control the order that they're lasered. This is useful on the Full Spectrum since it cuts segments in a totally random order.
 3. Consider engraving a little circle at the origin to let you take out the plastic and put it back in later in roughly the same place. Then you can cut one shape completely, take the plastic out and put it in for the remaining shapes.
-
+4. The Full Spectrum software crops the `.xps` file tightly to the area
+   containing the shapes, so don't worry about putting some margin on the top
+   and left sides of the drawing that gets sent to the laser. This also means that
+   the origin should be placed 5-10 mm down and right of the top left of the
+   plastic to provide some margin for the plastic not being perfectly aligned with
+   the laser.
