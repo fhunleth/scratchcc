@@ -2,8 +2,8 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/fhunleth/Documents/eagle/Robot/robot.brd
 
-Start at      : 21:04:57 (7/5/2014)
-End at        : 21:04:57 (7/5/2014)
+Start at      : 13:02:10 (7/15/2014)
+End at        : 13:02:10 (7/15/2014)
 Elapsed time  : 00:00:00
 
 Signals       :    30   RoutingGrid: 50 mil  Layers: 2
@@ -18,8 +18,8 @@ Number of Ripups  :         0         0         0         0         0         0
 max. Level        :         0         0         0         0         0         0
 max. Total        :         0         0         0         0         0         0
 
-Routed            :         3        40        40        40        40        40
-Vias              :         0        52        16        13        12        11
-Resolution        :    35.1 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :         1        38        38        38        38        38
+Vias              :         0        46        16        13         6         6
+Resolution        :    31.6 %    96.5 %    96.5 %    96.5 %    96.5 %    96.5 %
 
-Final             : 100.0% finished
+Final             : 96.5% finished

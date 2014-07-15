@@ -8357,7 +8357,7 @@ LETTER landscape</description>
 <pad name="1" x="-2.54" y="0" drill="1.016" rot="R90"/>
 <pad name="2" x="0" y="0" drill="1.016" rot="R90"/>
 <pad name="3" x="2.54" y="0" drill="1.016" rot="R90"/>
-<text x="-3.8862" y="1.8288" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.7112" y="-3.7338" size="1.27" layer="25" ratio="10" rot="R270">&gt;NAME</text>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
@@ -8367,8 +8367,12 @@ LETTER landscape</description>
 <wire x1="-1.27" y1="-1.27" x2="1.27" y2="-1.27" width="0.1524" layer="21"/>
 <wire x1="1.27" y1="-1.27" x2="1.27" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="1.27" y1="1.27" x2="-1.27" y2="1.27" width="0.1524" layer="21"/>
-<text x="-5.08" y="-3.175" size="1.27" layer="21">VOUT</text>
-<text x="1.27" y="-3.175" size="1.27" layer="21">VIN</text>
+<text x="-5.08" y="2.54" size="1.27" layer="21">VOUT</text>
+<text x="1.27" y="2.54" size="1.27" layer="21">VIN</text>
+<wire x1="-4.445" y1="1.905" x2="-4.445" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="-12.7" x2="4.445" y2="-12.7" width="0.127" layer="21"/>
+<wire x1="4.445" y1="-12.7" x2="4.445" y2="1.905" width="0.127" layer="21"/>
+<wire x1="4.445" y1="1.905" x2="-4.445" y2="1.905" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -8453,7 +8457,7 @@ LETTER landscape</description>
 </devices>
 </deviceset>
 <deviceset name="S7V7F5">
-<description>Pololu DRV8835 Dual Motor Driver Carrier</description>
+<description>Pololu Regulator</description>
 <gates>
 <gate name="G$1" symbol="S7V7F5" x="0" y="0"/>
 </gates>
@@ -11159,9 +11163,9 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="X7" gate="-2" pin="S"/>
 </segment>
 <segment>
-<wire x1="68.58" y1="73.66" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
-<label x="50.8" y="73.66" size="1.778" layer="95"/>
-<pinref part="M2" gate="G$1" pin="D9"/>
+<wire x1="68.58" y1="88.9" x2="60.96" y2="88.9" width="0.1524" layer="91"/>
+<label x="53.34" y="88.9" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="D4"/>
 </segment>
 </net>
 <net name="LENCODER_A" class="0">
@@ -11171,9 +11175,9 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="X7" gate="-3" pin="S"/>
 </segment>
 <segment>
-<wire x1="68.58" y1="76.2" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
-<label x="50.8" y="76.2" size="1.778" layer="95"/>
-<pinref part="M2" gate="G$1" pin="D8"/>
+<wire x1="68.58" y1="91.44" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
+<label x="53.34" y="91.44" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="D3"/>
 </segment>
 </net>
 <net name="RENCODER_A" class="0">
@@ -11183,9 +11187,9 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="X6" gate="-3" pin="S"/>
 </segment>
 <segment>
-<wire x1="68.58" y1="71.12" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
-<label x="50.8" y="71.12" size="1.778" layer="95"/>
-<pinref part="M2" gate="G$1" pin="D10"/>
+<wire x1="68.58" y1="93.98" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
+<label x="53.34" y="93.98" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="D2"/>
 </segment>
 </net>
 <net name="RENCODER_B" class="0">
@@ -11196,7 +11200,7 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </segment>
 <segment>
 <wire x1="68.58" y1="66.04" x2="60.96" y2="66.04" width="0.1524" layer="91"/>
-<label x="50.8" y="66.04" size="1.778" layer="95"/>
+<label x="53.34" y="66.04" size="1.778" layer="95"/>
 <pinref part="M2" gate="G$1" pin="D12"/>
 </segment>
 </net>
@@ -11229,9 +11233,9 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <label x="116.84" y="165.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="68.58" y1="88.9" x2="60.96" y2="88.9" width="0.1524" layer="91"/>
-<label x="58.42" y="88.9" size="1.778" layer="95"/>
-<pinref part="M2" gate="G$1" pin="D4"/>
+<wire x1="68.58" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
+<label x="55.88" y="68.58" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="D11"/>
 </segment>
 </net>
 <net name="LEDS" class="0">
@@ -11243,9 +11247,9 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <pinref part="X3" gate="-3" pin="S"/>
 </segment>
 <segment>
-<wire x1="68.58" y1="93.98" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
-<label x="63.5" y="93.98" size="1.778" layer="95"/>
-<pinref part="M2" gate="G$1" pin="D2"/>
+<wire x1="68.58" y1="76.2" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
+<label x="55.88" y="76.2" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="D8"/>
 </segment>
 </net>
 <net name="LINE1" class="0">
@@ -11306,9 +11310,9 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <label x="38.1" y="106.68" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="68.58" y1="91.44" x2="60.96" y2="91.44" width="0.1524" layer="91"/>
-<label x="50.8" y="91.44" size="1.778" layer="95"/>
-<pinref part="M2" gate="G$1" pin="D3"/>
+<wire x1="68.58" y1="81.28" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
+<label x="53.34" y="81.28" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="D7"/>
 </segment>
 </net>
 <net name="APHASE" class="0">
@@ -11318,9 +11322,9 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <label x="38.1" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="68.58" y1="81.28" x2="60.96" y2="81.28" width="0.1524" layer="91"/>
-<label x="58.42" y="81.28" size="1.778" layer="95"/>
-<pinref part="M2" gate="G$1" pin="D7"/>
+<wire x1="68.58" y1="86.36" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
+<label x="58.42" y="86.36" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="D5"/>
 </segment>
 </net>
 <net name="AENABLE" class="0">
@@ -11330,9 +11334,9 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <label x="40.64" y="111.76" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="68.58" y1="86.36" x2="60.96" y2="86.36" width="0.1524" layer="91"/>
-<label x="58.42" y="86.36" size="1.778" layer="95"/>
-<pinref part="M2" gate="G$1" pin="D5"/>
+<wire x1="68.58" y1="73.66" x2="60.96" y2="73.66" width="0.1524" layer="91"/>
+<label x="55.88" y="73.66" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="D9"/>
 </segment>
 </net>
 <net name="BPHASE" class="0">
@@ -11342,9 +11346,9 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <label x="40.64" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="68.58" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
-<label x="55.88" y="68.58" size="1.778" layer="95"/>
-<pinref part="M2" gate="G$1" pin="D11"/>
+<wire x1="68.58" y1="83.82" x2="60.96" y2="83.82" width="0.1524" layer="91"/>
+<label x="58.42" y="83.82" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="D6"/>
 </segment>
 </net>
 <net name="BENABLE" class="0">
@@ -11354,9 +11358,9 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 <label x="40.64" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="68.58" y1="83.82" x2="60.96" y2="83.82" width="0.1524" layer="91"/>
-<label x="58.42" y="83.82" size="1.778" layer="95"/>
-<pinref part="M2" gate="G$1" pin="D6"/>
+<wire x1="68.58" y1="71.12" x2="60.96" y2="71.12" width="0.1524" layer="91"/>
+<label x="55.88" y="71.12" size="1.778" layer="95"/>
+<pinref part="M2" gate="G$1" pin="D10"/>
 </segment>
 </net>
 <net name="N$5" class="1">
@@ -11397,18 +11401,13 @@ Source: http://www.bourns.com/data/global/PDFs/3223.PDF</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="104,1,154.94,157.48,IC1,VS,+5V,,,"/>
-<approved hash="104,1,129.54,83.82,U1,VIN,N$5,,,"/>
-<approved hash="104,1,129.54,81.28,U1,GND1,GND,,,"/>
-<approved hash="104,1,129.54,78.74,U1,GND2,GND,,,"/>
-<approved hash="204,1,129.54,76.2,U1,5V,,,,"/>
-<approved hash="204,1,129.54,73.66,U1,3V,,,,"/>
-<approved hash="113,1,-15.4771,124.329,JP1,,,,,"/>
-<approved hash="113,1,-15.4771,91.3088,JP2,,,,,"/>
+<approved hash="104,1,142.24,160.02,IC1,VS,+5V,,,"/>
+<approved hash="104,1,129.54,83.82,M2,VIN,N$5,,,"/>
+<approved hash="204,1,129.54,76.2,M2,5V,,,,"/>
+<approved hash="204,1,129.54,73.66,M2,3V,,,,"/>
 <approved hash="113,1,83.716,82.446,FRAME1,,,,,"/>
-<approved hash="113,1,195.817,148.721,JP3,,,,,"/>
-<approved hash="113,1,195.817,110.621,JP4,,,,,"/>
-<approved hash="113,1,-18.0171,20.1888,JP5,,,,,"/>
+<approved hash="113,1,-18.1779,86.36,X6,,,,,"/>
+<approved hash="113,1,-18.1779,119.38,X7,,,,,"/>
 </errors>
 </schematic>
 </drawing>
