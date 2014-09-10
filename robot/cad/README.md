@@ -17,3 +17,10 @@ Here are some notes:
    the origin should be placed 5-10 mm down and right of the top left of the
    plastic to provide some margin for the plastic not being perfectly aligned with
    the laser.
+
+# Improvements for v2
+
+1. Add keying hold for top switch
+2. Make ball holder slightly smaller. Possibly have some sort of plastic that
+   fits over the top to secure it in place
+3. Figure out how to attach the speaker
